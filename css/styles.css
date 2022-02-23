@@ -1,0 +1,187 @@
+body
+{
+    font-family: 'Comfortaa', cursive;
+}
+h1,h2,h3,h4,h5,h6
+{ 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+h2 
+{
+    font-size: 3rem;
+    font-weight:600;
+}
+a
+{
+    font-size: 1.3em;
+}
+#title
+{
+    background-color: #ff4c68
+}
+#iphone6
+{
+    width: 60%;
+    transform: rotate(30deg);
+    position: relative;
+    margin: 0%  13%;
+}
+#features
+{
+    text-align: center;
+    padding: 7% 13%;
+    background-color:white;
+    position: relative;
+}
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing
+{
+    padding: 15%;
+}
+#cta
+{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+#footer
+{
+    margin: 5% 5%;
+    text-align: center;
+}
+@media (max-width: 990px)
+{
+    #iphone6
+    {
+        position: static;
+        transform: rotate(0deg);
+    }
+    .main-display
+    {
+        height:max-content
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+.main-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: aliceblue;
+    font-weight: 700;
+}
+/* Container - Navbar */  
+.container
+{
+    padding: 3%;
+}
+.col-lg-6
+{
+    margin-top: 5%;
+    
+}
+.main-display
+{
+    height: 550px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    height: 50px;
+    width: 90px;
+    font-size:3em;
+    margin-bottom: 25px
+}
+.nav-item
+{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature - Carousel */ 
+
+.feature-h
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.feature-p
+{
+    color: #8f8f8f;
+}
+
+.feature-box
+{
+    padding: 5%;
+}
+.feature-img:hover
+{
+    color: #ff4c68;
+}
+.feature-img
+{
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.testimonial-img
+{
+    width:7%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo
+{
+    width: 12%;
+    margin: 20px 20px 15px;
+}
+.carousel-item
+{
+    padding: 7% 13%;
+}
+
+/* Pricing Cards and footer*/ 
+.pricing-card-title
+{
+    color: black;
+    font-weight: 700;
+    padding: 2% 3%;
+}
+.my-0
+{
+    color: black;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+.social-icon
+{
+    margin: 0% 1%;
+    color: black;
+}
+
+
+
+
